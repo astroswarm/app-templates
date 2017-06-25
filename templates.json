@@ -6,6 +6,7 @@
     "platform": "linux",
     "logo": "http://openphdguiding.org/wp-content/uploads/2015/06/capture_91.jpg",
     "image": "astroswarm/phd2-x86_64:2.6.3",
+    "network": "bridge",
     "restart-policy": "unless-stopped",
     "ports": [
       "5900/tcp",
