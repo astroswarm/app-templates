@@ -1,0 +1,18 @@
+[
+  {
+    "title": "PHD2",
+    "description": "Open PHD Guiding autoguider",
+    "categories": ["autoguiders"],
+    "platform": "linux",
+    "logo": "http://openphdguiding.org/wp-content/uploads/2015/06/capture_91.jpg",
+    "image": "astroswarm/phd2-x86_64:2.6.3",
+    "restart-policy": "unless-stopped",
+    "ports": [
+      "5900/tcp",
+      "6080/tcp"
+    ],
+    "volumes": [
+      "/foo/bar"
+    ]
+  }
+]
